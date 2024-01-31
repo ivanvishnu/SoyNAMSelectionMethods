@@ -1,0 +1,16 @@
+Package: SoyNAMSelectionMethods
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person("Vishnu", , email = "vishnur@iastate.edu", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+Imports: Rcpp
+Depends: adegenet, mmod, doParallel, foreach, Rcpp, GenomicMatingV2,
+        bigmemory, rrBLUP, doSNOW, R (>= 2.10)
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2021-01-08 05:21:57 UTC; vishnur
+Author: Vishnu Ramasubramanian [aut, cre]
+Maintainer: Vishnu Ramasubramanian <vishnur@iastate.edu>
